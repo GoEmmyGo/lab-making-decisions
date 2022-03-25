@@ -137,7 +137,7 @@ let changeMyMind = true
 if(changeMyMind == true){
   changeMyMind = false
   console.log(changeMyMind)
-}if(changeMyMind == false){
+}else if(changeMyMind == false){
   changeMyMind = true
   console.log(changeMyMind)
 }
@@ -155,7 +155,14 @@ After you change the value of changeMyMind, console.log it's new value
 /*
 
 //CODE HERE
-
+*/
+if(changeMyMind == true){
+  changeMyMind = false
+  console.log(changeMyMind)
+}else if(changeMyMind !== true){
+  changeMyMind = true
+  console.log(changeMyMind)
+}
 ////////// ADVANCED PROBLEMS //////////
 
 ////////// PROBLEM 11 //////////
